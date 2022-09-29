@@ -7,7 +7,7 @@ from github import Github, GithubIntegration
 
 app = Flask(__name__)
 # MAKE SURE TO CHANGE TO YOUR APP NUMBER!!!!!
-app_id = '<Your_App_Number_here>'
+app_id = 123456
 # Read the bot certificate
 with open(
         os.path.normpath(os.path.expanduser('~/.certs/github/yaymergerequests.pem')),
